@@ -77,3 +77,23 @@ div span {
     color: #ffffff;
     padding: 4px 8px;
 }
+
+h1 {
+    color: #14213d;
+}
+
+footer {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+body {
+    background-color: #f0f0f0;   /* pick your own color */
+}
+
+header {
+    background-color: #14213d;
+    color: #ffffff;
+    padding: 10px 0;
+}
