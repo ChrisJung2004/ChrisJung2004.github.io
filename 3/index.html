@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project 2 topic proposal for CSci 3054: The 30-Day Route, a backpacking route planner that turns two choices into a ready-made month-long travel route.">
+  <meta name="author" content="Chris Jung">
+  <meta name="keywords" content="backpacking, travel, route planner, itinerary, web programming">
+  <title>The 30-Day Route &ndash; Project 2 Topic Proposal</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
+  <header class="site-header">
+    <h1>The 30-Day Route: A Backpacking Route Planner</h1>
+    <p class="tagline">Pick your kind of trip, pick a region, and get a month-long backpacking route.</p>
+    <p class="course-info">CSci 3054 Web Programming &middot; Project 2 Topic Proposal &middot; Chris Jung</p>
+  </header>
+
+  <main>
+
+    <section id="topic-description">
+      <h2>Topic Description</h2>
+
+      <p>
+        My website will be a backpacking route planner. The duration of the trip is set at a month
+        and users get to choose the theme and the region of the trip. Traveling is something I have
+        been passionate about since I was a kid and went on my first big trip to Jamaica. I fell in
+        love with the feeling you experience when you are traveling, and it is even the reason I
+        chose computer science as my major. I wanted to be able to work remotely and travel the
+        world. I am also doing a 40-day backpacking trip in December after I graduate, so it is
+        directly relevant to me right now. Traveling is a lot of fun, but planning is often the
+        hardest part, so my website is designed to help with that and take the pressure out of
+        planning.
+      </p>
+
+      <p>
+        There are many websites similar to mine, such as <a href="https://www.rome2rio.com/">Rome2Rio</a>,
+        <a href="https://wanderlog.com/">Wanderlog</a>, or <a href="https://www.stippl.io/">Stippl</a>.
+        Rome2Rio shows the logistics of getting from place to place by train, bus, flight, or ferry.
+        Wanderlog is a full planner with a map, itinerary, and budget. Stippl offers AI tools that
+        build your dream trip based on your description. Sites such as
+        <a href="https://www.lonelyplanet.com/journeys">Lonely Planet Journeys</a> publish curated
+        itineraries of a set length, but they are paid, bookable packages organized by region. Where
+        my website differs is that it offers curated, easy routes based on what type of trip you are
+        looking for. My users don't need to already know where they want to go. All they have to do
+        is pick what type of trip they want and which region they want to see.
+      </p>
+    </section>
+
+    <section id="app-description">
+      <h2>App Description</h2>
+
+      <h3>Page 1: Home</h3>
+
+      <p>
+        The home page will have the name of my website at the top, &ldquo;The 30-Day Route,&rdquo;
+        and then a pitch along the lines of &ldquo;Pick your kind of trip, pick a region, and get a
+        month-long backpacking route.&rdquo; I want the background image to be something that
+        inspires travel, so it will likely be a picture of someone summiting a mountain. I will try
+        to find the picture on Wikimedia Commons, Unsplash, or another site like those. There will
+        also be a sidebar that allows the user to access the other pages. Then there will be a short
+        paragraph explaining the purpose of the website and a small section describing how the
+        selector works, along with a simple diagram. The walkthrough of the selector will be
+        presented as an ordered list:
+      </p>
+
+      <ol class="how-it-works">
+        <li>Pick the kind of trip you want: party, skiing, nature, or culture and food.</li>
+        <li>Pick one of the four regions offered for that theme.</li>
+        <li>Read the ready-made month-long route that matches those two choices.</li>
+      </ol>
+
+      <h3>Page 2: The Interactive Choice-Based Page</h3>
+
+      <p>
+        For the interactive choice-based page, my first four choices will be themes the user can
+        pick for the trip. The options are party, skiing, nature, and culture/food. Then the next
+        four choices will be the region you would like to go to. For the party theme, the four
+        regions you can choose from will be Southeast Asia, Mediterranean Islands, Central European
+        Cities, and South America. For skiing, the regions are The Alps, Nordic Countries, East
+        Asia, and The Andes. Then for nature, the options are Nordic Countries, Patagonia, The
+        Himalayas, and North American National Parks. Finally, for the culture/food theme, the
+        options are Mexico &amp; Guatemala, East Asia, Greece &amp; Turkey, and Western
+        Mediterranean. Some of these options overlap with each other, but the actual locations
+        visited for each overlapping theme are completely different. That, along with which season
+        is best for each region, will be clearly shown when allowing the user to choose a region.
+      </p>
+
+      <p>
+        Once a region is selected, a picture of the region will be displayed along with information
+        about specific spots like restaurants, ski trails, bars and clubs, historical monuments,
+        museums, and hiking trails. There will be enough spots and activities displayed to fill up
+        the entire month, along with other information about places to stay. There will also be a
+        guide on how long to stay in each location for. Every one of the sixteen routes will use
+        this same set of information, so the same display code can be reused for any of them later
+        in the course.
+      </p>
+
+      <h3>Page 3: The Static Information Page</h3>
+
+      <p>
+        The static page will contain historical and cultural information about the regions and the
+        specific locations within each region. It will contain information about cultural dos and
+        don'ts so users can make sure they are being respectful in each region. The page will also
+        have additional spots and activities aside from the ones already listed on the interactive
+        page, in case the user wants to change things up. This page requires no interaction from the
+        user and does not repeat the route data from the two-step page.
+      </p>
+
+      <h3>Page 4: Contact Us</h3>
+
+      <p>
+        The contact page will be a static form until we get to the database portion of the course,
+        so nothing submitted through it will be stored yet. The form will collect the user's name
+        and email address so that I am able to reply to them, and a subject chosen from a short
+        dropdown list: a question about a route, a suggested route or region, a correction such as a
+        closed hostel or a broken link, or something else. Using a fixed list of subjects keeps
+        messages sorted and will make a clean database column later on. The form will also ask which
+        theme the user is most interested in, which tells me which routes are worth expanding first,
+        and it will include a message box for the actual question or suggestion, along with an
+        optional checkbox to be emailed when new routes are added. The site does not collect any
+        payment or credit card information anywhere, since the application has no business value of
+        that kind.
+      </p>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
