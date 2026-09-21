@@ -1,0 +1,154 @@
+:root {
+  --deep-pine:   #1d3a34;
+  --pine:        #2f5d52;
+  --moss:        #4a7c68;
+  --sand:        #f6f2e9;
+  --paper:       #ffffff;
+  --ink:         #22262b;
+  --rule:        #d8d2c4;
+  --link:        #1f5c8b;
+  --link-hover:  #133e5f;
+  --highlight:   #fdf6e3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--sand);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.site-header {
+  background-color: var(--deep-pine);
+  color: var(--paper);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  border-bottom: 6px solid var(--moss);
+}
+
+.site-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.site-header .tagline {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #e6efe9;
+}
+
+.site-header .course-info {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #bcd3c7;
+}
+
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+section {
+  background-color: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--moss);
+  color: var(--deep-pine);
+  font-size: 1.7rem;
+}
+
+h3 {
+  margin: 2rem 0 0.75rem;
+  color: var(--pine);
+  font-size: 1.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+h3:first-of-type {
+  margin-top: 1.5rem;
+}
+
+p {
+  margin: 0 0 1.1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  background-color: var(--highlight);
+}
+
+ol,
+ul {
+  margin: 0 0 1.25rem;
+  padding-left: 1.75rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.how-it-works {
+  background-color: var(--highlight);
+  border-left: 5px solid var(--moss);
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1rem 1rem 2.75rem;
+}
+
+.how-it-works li {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 17px;
+  }
+
+  .site-header {
+    padding: 1.75rem 1rem;
+  }
+
+  .site-header h1 {
+    font-size: 1.6rem;
+  }
+
+  main {
+    padding: 1.25rem 0.75rem 2rem;
+  }
+
+  section {
+    padding: 1.25rem 1rem;
+  }
+
+}
