@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="A 30-day culture / food backpacking route through Athens, Santorini, Cappadocia, Istanbul, with nights per stop, highlights, budget and where to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, culture / food trip, Greece and Turkey, Athens, Santorini, Cappadocia, Istanbul">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Greece and Turkey Culture / Food Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>30-Day Culture / Food Route: Greece &amp; Turkey</h1>
+        <p class="tagline">Athens, Santorini, Cappadocia, Istanbul &middot; Best time: Apr–Jun, Sep–Oct</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class="sep" aria-hidden="true">&rsaquo;</span> <a href="culture.html">Culture / Food</a></li>
+                    <li aria-current="page"><span class="sep" aria-hidden="true">&rsaquo;</span> Greece &amp; Turkey</li>
+                </ol>
+            </nav>
+
+            <ol class="steps" aria-label="Progress">
+                <li class="done">Step 1: Pick a trip type</li>
+                <li class="done">Step 2: Pick a region</li>
+                <li class="current" aria-current="step">Step 3: Your 30-day route</li>
+            </ol>
+
+            <h2>Greece &amp; Turkey</h2>
+            <p>This route is where Europe meets Asia. You walk up to the Acropolis, watch the sunset over the volcano in Santorini, and ride a hot air balloon over Cappadocia. Then you finish in Istanbul, which was the capital of two different empires.</p>
+
+            <figure>
+                <img src="img/placeholder.jpg" width="640" height="360" alt="Placeholder image">
+                <figcaption>Photo coming soon. Stops: Athens, Santorini, Cappadocia, Istanbul.</figcaption>
+            </figure>
+
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Route table, scrolls sideways on small screens">
+                <table>
+                    <caption>Route order: fly into Athens, ferry to Santorini, fly to Cappadocia (through Istanbul), and finish in Istanbul.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Stop</th>
+                            <th scope="col">Nights</th>
+                            <th scope="col">Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Athens, Greece</th>
+                            <td class="nights">6</td>
+                            <td>The Acropolis and Parthenon; the Acropolis Museum; souvlaki in Plaka</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Santorini, Greece</th>
+                            <td class="nights">6</td>
+                            <td>Sunset in Oia; the caldera hike from Fira to Oia (about 10 km); volcanic-soil wineries</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cappadocia, Turkey</th>
+                            <td class="nights">7</td>
+                            <td>A sunrise hot-air balloon flight; the Göreme Open-Air Museum's cave churches; the Derinkuyu underground city; sleeping in a cave hotel</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Istanbul, Turkey</th>
+                            <td class="nights">11</td>
+                            <td>Hagia Sophia; the Blue Mosque; the Grand Bazaar; a Bosphorus ferry ride; kebabs, simit and baklava</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td class="nights">30</td>
+                            <td>4 stops</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="details">
+                <section>
+                    <h3 id="stay-title">Where to stay</h3>
+                    <ul>
+                        <li>Athens: hostels in Psyrri or Plaka, below the Acropolis</li>
+                        <li>Santorini: hostels in Fira or Perissa; Oia is the most expensive village</li>
+                        <li>Cappadocia: cave hotels in Göreme</li>
+                        <li>Istanbul: hostels in Sultanahmet or Karaköy</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3 id="glance-title">At a glance</h3>
+                    <div class="glance">
+                        <p><strong>Best time:</strong> April to June or September to October, warm but without the summer crowds and heat.</p>
+                        <p><strong>Daily budget:</strong> About €70–120 per person per day. Santorini is the most expensive stop; Turkey is much cheaper.</p>
+                        <p><strong>Getting around:</strong> Ferries in Greece and domestic flights in Turkey (Turkish Airlines, Pegasus).</p>
+                        <p><strong>Fly in / fly out:</strong> Arrive in Athens (ATH) and leave from Istanbul (IST).</p>
+                    </div>
+                </aside>
+            </div>
+
+            <p><a href="culture.html">&larr; Back to Culture / Food regions</a> &middot; <a href="info.html">Packing, visas and etiquette</a></p>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
