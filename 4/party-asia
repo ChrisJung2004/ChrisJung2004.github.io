@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="A 30-day party backpacking route through Bangkok, Koh Phangan, Siem Reap, Hanoi, with nights per stop, highlights, budget and where to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, party trip, Southeast Asia, Bangkok, Koh Phangan, Siem Reap, Hanoi">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Southeast Asia Party Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>30-Day Party Route: Southeast Asia</h1>
+        <p class="tagline">Bangkok, Koh Phangan, Siem Reap, Hanoi &middot; Best time: Nov–Apr</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class="sep" aria-hidden="true">&rsaquo;</span> <a href="party.html">Party</a></li>
+                    <li aria-current="page"><span class="sep" aria-hidden="true">&rsaquo;</span> Southeast Asia</li>
+                </ol>
+            </nav>
+
+            <ol class="steps" aria-label="Progress">
+                <li class="done">Step 1: Pick a trip type</li>
+                <li class="done">Step 2: Pick a region</li>
+                <li class="current" aria-current="step">Step 3: Your 30-day route</li>
+            </ol>
+
+            <h2>Southeast Asia</h2>
+            <p>This is the classic backpacker route and one of the cheapest party trips you can do. You start with rooftop bars in Bangkok, then go to a Full Moon Party on a Thai island. Then you see temples during the day and go out on Pub Street at night in Cambodia, and finish with cheap fresh beer on the street corners of Hanoi. The dry season keeps the beaches sunny.</p>
+
+            <figure>
+                <img src="img/placeholder.jpg" width="640" height="360" alt="Placeholder image">
+                <figcaption>Photo coming soon. Stops: Bangkok, Koh Phangan, Siem Reap, Hanoi.</figcaption>
+            </figure>
+
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Route table, scrolls sideways on small screens">
+                <table>
+                    <caption>Route order: fly into Bangkok, take the train-and-ferry combo ticket to Koh Phangan, fly from Bangkok to Siem Reap, then fly to Hanoi and home.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Stop</th>
+                            <th scope="col">Nights</th>
+                            <th scope="col">Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Bangkok, Thailand</th>
+                            <td class="nights">7</td>
+                            <td>Khao San Road bars; rooftop drinks at Sky Bar (Lebua); Chatuchak Weekend Market; the Grand Palace and Wat Pho</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Koh Phangan, Thailand</th>
+                            <td class="nights">8</td>
+                            <td>The Full Moon Party on Haad Rin beach (plan around the full moon); Jungle and Half Moon parties; quiet recovery days at Bottle Beach</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Siem Reap, Cambodia</th>
+                            <td class="nights">6</td>
+                            <td>Sunrise at Angkor Wat; the tree-covered ruins of Ta Prohm; bars and street food on Pub Street</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Hanoi, Vietnam</th>
+                            <td class="nights">9</td>
+                            <td>Bia hơi (fresh draft beer) on Ta Hien "Beer Street"; Old Quarter street food like bún chả and phở; an overnight Ha Long Bay cruise</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td class="nights">30</td>
+                            <td>4 stops</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="details">
+                <section>
+                    <h3 id="stay-title">Where to stay</h3>
+                    <ul>
+                        <li>Bangkok: party hostels near Khao San Road, or quieter guesthouses in Rambuttri</li>
+                        <li>Koh Phangan: beach bungalows in Haad Rin. Book weeks ahead for Full Moon week</li>
+                        <li>Siem Reap: hostels near Pub Street, many with pools</li>
+                        <li>Hanoi: Old Quarter hostels, walking distance to Beer Street</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3 id="glance-title">At a glance</h3>
+                    <div class="glance">
+                        <p><strong>Best time:</strong> November to April, the dry season. Check the lunar calendar so you are on Koh Phangan for the full moon.</p>
+                        <p><strong>Daily budget:</strong> About $40–60 per person per day. Thailand is the most expensive stop and Cambodia the cheapest.</p>
+                        <p><strong>Getting around:</strong> Trains, overnight buses, ferries and cheap regional flights (AirAsia, VietJet).</p>
+                        <p><strong>Fly in / fly out:</strong> Arrive in Bangkok (BKK) and leave from Hanoi (HAN).</p>
+                    </div>
+                </aside>
+            </div>
+
+            <p><a href="party.html">&larr; Back to Party regions</a> &middot; <a href="info.html">Packing, visas and etiquette</a></p>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
