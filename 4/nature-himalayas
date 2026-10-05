@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="A 30-day nature backpacking route through Everest Base Camp, Annapurna, Ladakh, with nights per stop, highlights, budget and where to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, nature trip, The Himalayas, Everest Base Camp, Annapurna, Ladakh">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>The Himalayas Nature Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>30-Day Nature Route: The Himalayas</h1>
+        <p class="tagline">Everest Base Camp, Annapurna, Ladakh &middot; Best time: Mar–May, Oct–Nov</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class="sep" aria-hidden="true">&rsaquo;</span> <a href="nature.html">Nature</a></li>
+                    <li aria-current="page"><span class="sep" aria-hidden="true">&rsaquo;</span> The Himalayas</li>
+                </ol>
+            </nav>
+
+            <ol class="steps" aria-label="Progress">
+                <li class="done">Step 1: Pick a trip type</li>
+                <li class="done">Step 2: Pick a region</li>
+                <li class="current" aria-current="step">Step 3: Your 30-day route</li>
+            </ol>
+
+            <h2>The Himalayas</h2>
+            <p>The biggest mountains in the world. This route is built around two of the best treks in Nepal, Everest Base Camp and Poon Hill in the Annapurnas. Then you fly to Ladakh in India, which is a high desert that people call "Little Tibet." The altitude is no joke, so the plan includes rest days to get used to it.</p>
+
+            <figure>
+                <img src="img/placeholder.jpg" width="640" height="360" alt="Placeholder image">
+                <figcaption>Photo coming soon. Stops: Everest Base Camp, Annapurna, Ladakh.</figcaption>
+            </figure>
+
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Route table, scrolls sideways on small screens">
+                <table>
+                    <caption>Route order: fly into Kathmandu, fly to Lukla for the trek, bus or fly to Pokhara, then fly Kathmandu to Delhi to Leh and home from Delhi.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Stop</th>
+                            <th scope="col">Nights</th>
+                            <th scope="col">Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Kathmandu, Nepal</th>
+                            <td class="nights">3</td>
+                            <td>Durbar Square; the Boudhanath stupa; momo dumplings; picking up trekking permits</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Everest Base Camp trek, Nepal</th>
+                            <td class="nights">14</td>
+                            <td>The flight into Lukla; Namche Bazaar acclimatization days; Tengboche Monastery; sunrise over Everest from Kala Patthar</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pokhara &amp; Annapurna, Nepal</th>
+                            <td class="nights">6</td>
+                            <td>Phewa Lake; the Poon Hill trek for sunrise over the Annapurna range; paragliding over the lake</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Leh, Ladakh, India</th>
+                            <td class="nights">7</td>
+                            <td>Thiksey Monastery; Pangong Tso lake; the Khardung La mountain pass. Spend your first two days resting at altitude</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td class="nights">30</td>
+                            <td>4 stops</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="details">
+                <section>
+                    <h3 id="stay-title">Where to stay</h3>
+                    <ul>
+                        <li>Kathmandu: guesthouses in Thamel, the trekkers' district</li>
+                        <li>Everest trek: teahouses (simple lodges) in each village along the trail</li>
+                        <li>Pokhara: lakeside guesthouses</li>
+                        <li>Leh: family-run guesthouses in the old town</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3 id="glance-title">At a glance</h3>
+                    <div class="glance">
+                        <p><strong>Best time:</strong> Autumn (October to November) is the clearest. Spring (March to May) brings rhododendron blooms. Visit Ladakh in the autumn window, before the passes close.</p>
+                        <p><strong>Daily budget:</strong> About $35–60 per person per day, plus trekking permits and a guide. Nepal now requires most foreign trekkers in its protected areas to hire a licensed guide.</p>
+                        <p><strong>Getting around:</strong> Domestic flights (Lukla, Pokhara, Leh), tourist buses, and walking.</p>
+                        <p><strong>Fly in / fly out:</strong> Arrive in Kathmandu (KTM) and leave from Delhi (DEL).</p>
+                    </div>
+                </aside>
+            </div>
+
+            <p><a href="nature.html">&larr; Back to Nature regions</a> &middot; <a href="info.html">Packing, visas and etiquette</a></p>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
