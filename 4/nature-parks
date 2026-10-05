@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="A 30-day nature backpacking route through Yosemite, Yellowstone, Banff, Jasper, with nights per stop, highlights, budget and where to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, nature trip, North American National Parks, Yosemite, Yellowstone, Banff, Jasper">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>North American National Parks Nature Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>30-Day Nature Route: North American National Parks</h1>
+        <p class="tagline">Yosemite, Yellowstone, Banff, Jasper &middot; Best time: Jun–Sep</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class="sep" aria-hidden="true">&rsaquo;</span> <a href="nature.html">Nature</a></li>
+                    <li aria-current="page"><span class="sep" aria-hidden="true">&rsaquo;</span> North American National Parks</li>
+                </ol>
+            </nav>
+
+            <ol class="steps" aria-label="Progress">
+                <li class="done">Step 1: Pick a trip type</li>
+                <li class="done">Step 2: Pick a region</li>
+                <li class="current" aria-current="step">Step 3: Your 30-day route</li>
+            </ol>
+
+            <h2>North American National Parks</h2>
+            <p>A road trip through four of the most famous parks in North America. You see the granite walls in Yosemite, the geysers and bison in Yellowstone, and the turquoise lakes in the Canadian Rockies. Then you drive the Icefields Parkway, one of the most scenic roads in the world, to finish in Jasper.</p>
+
+            <figure>
+                <img src="img/placeholder.jpg" width="640" height="360" alt="Placeholder image">
+                <figcaption>Photo coming soon. Stops: Yosemite, Yellowstone, Banff, Jasper.</figcaption>
+            </figure>
+
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Route table, scrolls sideways on small screens">
+                <table>
+                    <caption>Route order: fly into San Francisco and rent a car, drive to Yosemite, then north to Yellowstone, cross into Canada for Banff, and drive the Icefields Parkway to Jasper.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Stop</th>
+                            <th scope="col">Nights</th>
+                            <th scope="col">Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Yosemite, California</th>
+                            <td class="nights">7</td>
+                            <td>Yosemite Falls; the Mist Trail; Glacier Point at sunset; the Half Dome cables (permit lottery required)</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Yellowstone, Wyoming</th>
+                            <td class="nights">8</td>
+                            <td>Old Faithful; Grand Prismatic Spring; bison and wolves in the Lamar Valley; the Grand Canyon of the Yellowstone</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Banff, Alberta</th>
+                            <td class="nights">8</td>
+                            <td>Lake Louise and Moraine Lake (shuttle only, no private cars); Johnston Canyon; the Banff Gondola</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Jasper, Alberta</th>
+                            <td class="nights">7</td>
+                            <td>The Icefields Parkway and the Athabasca Glacier; Maligne Lake; dark-sky stargazing</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td class="nights">30</td>
+                            <td>4 stops</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="details">
+                <section>
+                    <h3 id="stay-title">Where to stay</h3>
+                    <ul>
+                        <li>Yosemite: campgrounds book out months ahead on Recreation.gov; Curry Village tent cabins</li>
+                        <li>Yellowstone: campgrounds inside the park, or motels in West Yellowstone</li>
+                        <li>Banff: hostels in Banff town and at Lake Louise</li>
+                        <li>Jasper: campgrounds and hostels. Check current conditions, since the 2024 wildfire damaged part of town</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3 id="glance-title">At a glance</h3>
+                    <div class="glance">
+                        <p><strong>Best time:</strong> June to September, when the high roads and trails are snow-free.</p>
+                        <p><strong>Daily budget:</strong> About $120–180 per person per day, much less if you camp. An annual parks pass covers US park entry.</p>
+                        <p><strong>Getting around:</strong> A rental car is essential. Book one-way rentals early, since crossing the border adds fees.</p>
+                        <p><strong>Fly in / fly out:</strong> Arrive in San Francisco (SFO) and leave from Edmonton (YEG).</p>
+                    </div>
+                </aside>
+            </div>
+
+            <p><a href="nature.html">&larr; Back to Nature regions</a> &middot; <a href="info.html">Packing, visas and etiquette</a></p>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
