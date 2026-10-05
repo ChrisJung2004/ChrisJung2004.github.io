@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="Contact The 30-Day Route with questions about a backpacking route.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, contact, trip questions">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Contact Us | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>Contact Us</h1>
+        <p class="tagline">Questions about your trip? Let me know.</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <section>
+                <h2 id="contact-title">Ask about your trip</h2>
+                <p>If you have any questions about your trip, send me a message and I will get back to you within two days.</p>
+                <form>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="trip">Which trip did you pick?</label>
+                        <select id="trip" name="trip">
+                            <option value="">Not sure yet</option>
+                            <option value="party-southeast-asia">Party: Southeast Asia</option>
+                            <option value="party-mediterranean-islands">Party: Mediterranean Islands</option>
+                            <option value="party-central-european-cities">Party: Central European Cities</option>
+                            <option value="party-south-america">Party: South America</option>
+                            <option value="ski-alps">Ski: The Alps</option>
+                            <option value="ski-nordic">Ski: Nordic Countries</option>
+                            <option value="ski-east-asia">Ski: East Asia</option>
+                            <option value="ski-andes">Ski: The Andes</option>
+                            <option value="nature-nordic">Nature: Nordic Countries</option>
+                            <option value="nature-patagonia">Nature: Patagonia</option>
+                            <option value="nature-himalayas">Nature: The Himalayas</option>
+                            <option value="nature-national-parks">Nature: North American National Parks</option>
+                            <option value="culture-mexico-guatemala">Culture / Food: Mexico &amp; Guatemala</option>
+                            <option value="culture-east-asia">Culture / Food: East Asia</option>
+                            <option value="culture-greece-turkey">Culture / Food: Greece &amp; Turkey</option>
+                            <option value="culture-western-mediterranean">Culture / Food: Western Mediterranean</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6"></textarea>
+                    </div>
+                    <button class="button" type="button">Send message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
