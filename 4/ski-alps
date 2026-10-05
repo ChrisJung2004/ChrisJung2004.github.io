@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>30 Day Alps Ski Trip</title>
+</head>
+<body>
+    <header class="site-header"> 
+        <h1>30 Day Route: Alps Ski Trip</h1>
+    </header>
+
+    <div class="layout">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="info.html">Travel Info</a>
+            <a href="index.html#trip-types">Find Your Route</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main>
+            <nav aria-label="Breadcrumb">
+                <a href="index.html">Home</a> , <a href="ski.html">Ski</a> , The Alps
+            </nav>
+            
+            <h2>The Alps</h2>
+            
+            <p>Four of Europe's most legendary ski towns across France, Switzerland, Austria and Italy, all connected by train. Start under Mont Blanc, ski in the shadow of the Matterhorn, earn your après-ski in the Arlberg, and finish with a lap around the Dolomites. Best season: December to April, with January through March offering the most reliable snow.</p>
+            
+            <figure>
+                <img src="img/alps.jpg" alt="Place Holder">
+                <figcaption>Photo by Jane Doe, <cite>Unsplash</cite></figcaption>
+            </figure>
+
+            <table>
+                <caption>Route order: fly into Geneva, then go west to east, and fly home from Venice. Each stop is one train ride from the next.</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Stop</th>
+                        <th scope="col">Nights</th>
+                        <th scope="col">Highlights</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chamonix, France</td>
+                        <td>7</td>
+                        <td>Aiguille du Midi cable car (3,842 m) with Mont Blanc views; the Vallée Blanche, a ~20 km off-piste glacier run (guide required); Grands Montets</td>
+                    </tr>
+                    <tr>
+                        <td>Zermatt, Switzerland</td>
+                        <td>7</td>
+                        <td>Car-free village under the Matterhorn; Matterhorn Glacier Paradise, Europe's highest cable car station; ski across the border to Cervinia, Italy, for lunch</td>
+                    </tr>
+                    <tr>
+                       <td>St. Anton, Austria</td> 
+                       <td>8</td>
+                       <td>Ski Arlberg, about 300 km of connected runs; the Valluga summit; famous après-ski at the MooserWirt</td>
+                    </tr>
+                    <tr>
+                        <td>Dolomites, Italy</td>
+                        <td>8</td>
+                        <td>Sella Ronda, a ~40 km ski loop around the Sella massif; Dolomiti Superski pass (~1,200 km of runs); mountain-hut (rifugio) lunches; UNESCO World Heritage site</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <section>
+                <h3>Where to Stay</h3>
+                 <ul>
+                    <li>Chamonix: hostel dorms in town, near the free ski buses</li>
+                    <li>Zermatt: Zermatt Youth Hostel, the cheapest bed in an expensive town</li>
+                    <li>St. Anton: a small guesthouse (called a Pension in Austria), or stay in nearby Pettneu for lower prices</li>
+                    <li>Dolomites: a B&B in Ortisei or Selva in Val Gardena, on the Sella Ronda</li>
+                </ul>
+            </section>
+           
+            <aside>
+                <ul>
+                   <li>Season: Dec–Apr. February is the busiest and most expensive because of European school holidays.</li>
+                   <li>Rough daily budget: €150–220 per person, including the lift pass, which is the biggest cost (about €70–100 a day). Switzerland is the priciest stop.</li>
+                   <li>Getting around: trains between towns (Swiss SBB, Austrian ÖBB, Italian Trenitalia), plus free local ski buses. A Eurail pass covers the train legs.</li>
+                </ul>
+            </aside>
+            
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2026 Chris Jung</p>
+        <a href="contact.html">Contact Us</a>
+    </footer>
+</body>
+</html>
