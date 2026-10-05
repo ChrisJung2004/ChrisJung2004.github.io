@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="A 30-day nature backpacking route through Torres del Paine, El Chaltén, Perito Moreno Glacier, with nights per stop, highlights, budget and where to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, nature trip, Patagonia, Torres del Paine, El Chaltén, Perito Moreno Glacier">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Patagonia Nature Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>30-Day Nature Route: Patagonia</h1>
+        <p class="tagline">Torres del Paine, El Chaltén, Perito Moreno Glacier &middot; Best time: Nov–Mar</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#trip-types" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><span class="sep" aria-hidden="true">&rsaquo;</span> <a href="nature.html">Nature</a></li>
+                    <li aria-current="page"><span class="sep" aria-hidden="true">&rsaquo;</span> Patagonia</li>
+                </ol>
+            </nav>
+
+            <ol class="steps" aria-label="Progress">
+                <li class="done">Step 1: Pick a trip type</li>
+                <li class="done">Step 2: Pick a region</li>
+                <li class="current" aria-current="step">Step 3: Your 30-day route</li>
+            </ol>
+
+            <h2>Patagonia: Glaciers and granite peaks</h2>
+            <p>Patagonia is the bottom of the world, with granite peaks, blue glaciers, and a lot of wind. This route goes back and forth between Chile and Argentina for the three most famous hikes in the region. Then it ends in Ushuaia, the southernmost city in the world.</p>
+
+            <figure>
+                <img src="img/placeholder.jpg" width="640" height="360" alt="Placeholder image">
+                <figcaption>Photo coming soon. Stops: Torres del Paine, El Chaltén, Perito Moreno Glacier.</figcaption>
+            </figure>
+
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Route table, scrolls sideways on small screens">
+                <table>
+                    <caption>Route order: fly into Punta Arenas and bus to Puerto Natales, cross the border to El Calafate and El Chaltén, then fly to Ushuaia and home through Buenos Aires.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Stop</th>
+                            <th scope="col">Nights</th>
+                            <th scope="col">Highlights</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Torres del Paine, Chile</th>
+                            <td class="nights">9</td>
+                            <td>The W Trek (4–5 days) to the base of the three granite towers; Grey Glacier; guanacos on the open steppe</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">El Calafate, Argentina</th>
+                            <td class="nights">6</td>
+                            <td>The Perito Moreno Glacier boardwalks, where ice chunks crash into the lake; a mini-trek on the glacier itself</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">El Chaltén, Argentina</th>
+                            <td class="nights">8</td>
+                            <td>Laguna de los Tres at the foot of Mount Fitz Roy; Laguna Torre; free trails that start right in town</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ushuaia, Argentina</th>
+                            <td class="nights">7</td>
+                            <td>Tierra del Fuego National Park; a boat on the Beagle Channel to see penguins and sea lions</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td class="nights">30</td>
+                            <td>4 stops</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="details">
+                <section>
+                    <h3 id="stay-title">Where to stay</h3>
+                    <ul>
+                        <li>Torres del Paine: refugios (mountain huts) and campsites along the W, which must be booked in advance</li>
+                        <li>El Calafate: hostels in town with glacier tour pickups</li>
+                        <li>El Chaltén: hostels and campsites at the trailheads</li>
+                        <li>Ushuaia: hostels with views over the Beagle Channel</li>
+                    </ul>
+                </section>
+
+                <aside>
+                    <h3 id="glance-title">At a glance</h3>
+                    <div class="glance">
+                        <p><strong>Best time:</strong> November to March, Patagonia's summer, with long days and the mildest weather. Pack for wind any time.</p>
+                        <p><strong>Daily budget:</strong> About $70–120 per person per day. Chile is pricier than Argentina.</p>
+                        <p><strong>Getting around:</strong> Long-distance buses (Bus-Sur, Taqsa) between towns, and a flight to Ushuaia.</p>
+                        <p><strong>Fly in / fly out:</strong> Arrive in Punta Arenas (PUQ) and leave from Ushuaia (USH).</p>
+                    </div>
+                </aside>
+            </div>
+
+            <p><a href="nature.html">&larr; Back to Nature regions</a> &middot; <a href="info.html">Packing, visas and etiquette</a></p>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Illustrations created for The 30-Day Route. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+</body>
+</html>
