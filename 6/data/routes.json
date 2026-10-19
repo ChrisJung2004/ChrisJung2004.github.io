@@ -1,0 +1,1036 @@
+{
+    "tripTypes": [
+        {
+            "id": "party",
+            "name": "Party",
+            "tagline": "nightlife, clubs, festivals",
+            "description": "If you want to go out every night, these are the routes for you. Each one hits some of the best nightlife in the world, but there is still plenty to do during the day when you need a break. All of the stops are easy to get between by cheap flights, trains, or ferries.",
+            "image": "img/party.jpg",
+            "imageAlt": "Confetti falling over a crowd at a night music festival",
+            "regions": [
+                {
+                    "id": "party-asia",
+                    "name": "Southeast Asia",
+                    "tagline": "Full moon parties and rooftop bars",
+                    "areas": [
+                        "Bangkok",
+                        "Koh Phangan",
+                        "Siem Reap",
+                        "Hanoi"
+                    ],
+                    "season": "Nov–Apr",
+                    "image": "img/party-asia.jpg",
+                    "imageAlt": "Neon signs over a busy street in Bangkok at night",
+                    "intro": "This is the classic backpacker route and one of the cheapest party trips you can do. You start with rooftop bars in Bangkok, then go to a Full Moon Party on a Thai island. Then you see temples during the day and go out on Pub Street at night in Cambodia, and finish with cheap fresh beer on the street corners of Hanoi. The dry season keeps the beaches sunny.",
+                    "routeOrder": "Route order: fly into Bangkok, take the train-and-ferry combo ticket to Koh Phangan, fly from Bangkok to Siem Reap, then fly to Hanoi and home.",
+                    "stops": [
+                        {
+                            "place": "Bangkok, Thailand",
+                            "nights": 7,
+                            "highlights": "Khao San Road bars; rooftop drinks at Sky Bar (Lebua); Chatuchak Weekend Market; the Grand Palace and Wat Pho"
+                        },
+                        {
+                            "place": "Koh Phangan, Thailand",
+                            "nights": 8,
+                            "highlights": "The Full Moon Party on Haad Rin beach (plan around the full moon); Jungle and Half Moon parties; quiet recovery days at Bottle Beach"
+                        },
+                        {
+                            "place": "Siem Reap, Cambodia",
+                            "nights": 6,
+                            "highlights": "Sunrise at Angkor Wat; the tree-covered ruins of Ta Prohm; bars and street food on Pub Street"
+                        },
+                        {
+                            "place": "Hanoi, Vietnam",
+                            "nights": 9,
+                            "highlights": "Bia hơi (fresh draft beer) on Ta Hien \"Beer Street\"; Old Quarter street food like bún chả and phở; an overnight Ha Long Bay cruise"
+                        }
+                    ],
+                    "stays": [
+                        "Bangkok: party hostels near Khao San Road, or quieter guesthouses in Rambuttri",
+                        "Koh Phangan: beach bungalows in Haad Rin. Book weeks ahead for Full Moon week",
+                        "Siem Reap: hostels near Pub Street, many with pools",
+                        "Hanoi: Old Quarter hostels, walking distance to Beer Street"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "November to April, the dry season. Check the lunar calendar so you are on Koh Phangan for the full moon."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $40–60 per person per day. Thailand is the most expensive stop and Cambodia the cheapest."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Trains, overnight buses, ferries and cheap regional flights (AirAsia, VietJet)."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Bangkok (BKK) and leave from Hanoi (HAN)."
+                        }
+                    ]
+                },
+                {
+                    "id": "party-med",
+                    "name": "Mediterranean Islands",
+                    "tagline": "Beach clubs and island hopping",
+                    "areas": [
+                        "Ibiza",
+                        "Mykonos",
+                        "Ios",
+                        "Hvar"
+                    ],
+                    "season": "Jun–Sep",
+                    "image": "img/party-med.jpg",
+                    "imageAlt": "Laser lights over a dancing crowd at a club",
+                    "intro": "Four islands with the biggest summer party scene in Europe. You start at the superclubs in Ibiza, then go to the beach clubs on the Greek islands, and finish on Hvar in Croatia. The days are for beaches and boat trips and the nights don't really start until midnight.",
+                    "routeOrder": "Route order: fly into Ibiza, fly to Mykonos (through Athens), take the ferry to Ios, then fly from Athens to Split and take the ferry to Hvar.",
+                    "stops": [
+                        {
+                            "place": "Ibiza, Spain",
+                            "nights": 8,
+                            "highlights": "Superclubs such as Hï Ibiza, Ushuaïa, Amnesia and Pacha; sunset at Café del Mar in Sant Antoni; quiet coves like Cala Comte"
+                        },
+                        {
+                            "place": "Mykonos, Greece",
+                            "nights": 7,
+                            "highlights": "Paradise and Super Paradise beach clubs; sunset drinks in Little Venice; the famous windmills"
+                        },
+                        {
+                            "place": "Ios, Greece",
+                            "nights": 7,
+                            "highlights": "Mylopotas beach; Far Out Beach Club; the bar crawl through the tiny lanes of Chora"
+                        },
+                        {
+                            "place": "Hvar, Croatia",
+                            "nights": 8,
+                            "highlights": "Carpe Diem beach club on the Pakleni Islands; sunset at Hula Hula Hvar; a boat day around the Pakleni Islands"
+                        }
+                    ],
+                    "stays": [
+                        "Ibiza: hostels and budget hotels in Sant Antoni, close to the clubs' bus routes",
+                        "Mykonos: campsite cabins at Paradise Beach are the cheapest beds on the island",
+                        "Ios: party hostels in Chora or right on Mylopotas beach",
+                        "Hvar: hostels in Hvar Town, a short walk from the harbor taxis"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "June to September. Ibiza's opening and closing parties fall in early June and early October."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €90–150 per person per day. Club entry in Ibiza alone can run €50–100."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Ferries between Greek islands (Blue Star, SeaJets) and short budget flights between countries."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Ibiza (IBZ) and leave from Split (SPU)."
+                        }
+                    ]
+                },
+                {
+                    "id": "party-europe",
+                    "name": "Central European Cities",
+                    "tagline": "Techno clubs, beer halls and ruin bars",
+                    "areas": [
+                        "Berlin",
+                        "Prague",
+                        "Kraków",
+                        "Budapest"
+                    ],
+                    "season": "Year-round",
+                    "image": "img/party-europe.jpg",
+                    "imageAlt": "Budapest's Chain Bridge lit up at night",
+                    "intro": "This route goes through four cities with some of the best and cheapest nightlife in Europe. Berlin has techno clubs that stay open all weekend, Prague has beer that is cheaper than water, Kraków has vodka bars in the old Jewish quarter, and Budapest has its ruin bars. Every leg is just one train ride.",
+                    "routeOrder": "Route order: fly into Berlin, then go south and east by train, and fly home from Budapest.",
+                    "stops": [
+                        {
+                            "place": "Berlin, Germany",
+                            "nights": 8,
+                            "highlights": "Techno clubs like Berghain and Watergate (strict door policies); RAW-Gelände; the East Side Gallery on the old Berlin Wall"
+                        },
+                        {
+                            "place": "Prague, Czech Republic",
+                            "nights": 7,
+                            "highlights": "Karlovy Lázně, a five-floor club by the Charles Bridge; Czech pilsner in traditional pubs; Old Town Square"
+                        },
+                        {
+                            "place": "Kraków, Poland",
+                            "nights": 7,
+                            "highlights": "Bars in the Kazimierz district; the Wieliczka Salt Mine; a respectful day visit to the Auschwitz-Birkenau Memorial"
+                        },
+                        {
+                            "place": "Budapest, Hungary",
+                            "nights": 8,
+                            "highlights": "Ruin bars such as Szimpla Kert; Saturday night \"Sparty\" at the Széchenyi Baths; a night walk along the Danube"
+                        }
+                    ],
+                    "stays": [
+                        "Berlin: hostels in Friedrichshain or Kreuzberg, near the clubs",
+                        "Prague: hostels in Old Town or the cheaper Žižkov neighborhood",
+                        "Kraków: hostels in Kazimierz, the center of the nightlife",
+                        "Budapest: party hostels in the Jewish Quarter (District VII), near the ruin bars"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "Any time of year. Summer brings open-air clubs and beer gardens; winter brings Christmas markets."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €60–100 per person per day. Berlin is the most expensive stop."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Trains between every city (Deutsche Bahn, České dráhy, PKP Intercity). A Eurail pass covers them all."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Berlin (BER) and leave from Budapest (BUD)."
+                        }
+                    ]
+                },
+                {
+                    "id": "party-america",
+                    "name": "South America",
+                    "tagline": "Samba, tango and reggaeton",
+                    "areas": [
+                        "Rio de Janeiro",
+                        "Buenos Aires",
+                        "Medellín",
+                        "Cartagena"
+                    ],
+                    "season": "Year-round (Carnival Feb/Mar)",
+                    "image": "img/party-america.jpg",
+                    "imageAlt": "A packed street party crowd under colorful flags",
+                    "intro": "Samba, tango, salsa, and reggaeton. This route goes to four of the best party cities in South America. If you can, plan it around Carnival in Rio. Then head south to Buenos Aires and up to Colombia for Medellín and Cartagena.",
+                    "routeOrder": "Route order: fly into Rio, then take flights south to Buenos Aires, north to Medellín, and a short hop to Cartagena before flying home.",
+                    "stops": [
+                        {
+                            "place": "Rio de Janeiro, Brazil",
+                            "nights": 9,
+                            "highlights": "Street parties under the Arcos da Lapa; Ipanema beach; Christ the Redeemer and Sugarloaf Mountain; Carnival samba parades at the Sambadrome"
+                        },
+                        {
+                            "place": "Buenos Aires, Argentina",
+                            "nights": 8,
+                            "highlights": "Clubs that open after 1 a.m. in Palermo; a tango milonga in San Telmo; La Bomba de Tiempo drum show on Monday nights"
+                        },
+                        {
+                            "place": "Medellín, Colombia",
+                            "nights": 8,
+                            "highlights": "Bars around Parque Lleras in El Poblado; salsa classes; the Comuna 13 graffiti tour; a day trip to Guatapé"
+                        },
+                        {
+                            "place": "Cartagena, Colombia",
+                            "nights": 5,
+                            "highlights": "The walled Old City; street parties in Getsemaní; live salsa at Café Havana; a boat day to the Rosario Islands"
+                        }
+                    ],
+                    "stays": [
+                        "Rio: hostels in Ipanema or Copacabana, close to the beach and the metro",
+                        "Buenos Aires: hostels in Palermo, the nightlife district",
+                        "Medellín: hostels in El Poblado, near Parque Lleras",
+                        "Cartagena: hostels in Getsemaní, just outside the walls"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "Any time of year. Carnival is in February or March, and prices in Rio triple that week."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $50–90 per person per day. Rio during Carnival is the big exception."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Flights between countries (LATAM, Avianca), metros and app taxis within cities."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Rio de Janeiro (GIG) and leave from Cartagena (CTG)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ski",
+            "name": "Ski",
+            "tagline": "resorts and powder",
+            "description": "These routes are a full month of skiing, with a different mountain about every week. Each stop is connected by train, bus, or a short flight so you don't need a car. The first three routes are best from December to April, and the Andes route is for June to September when it is winter down there.",
+            "image": "img/ski.jpg",
+            "imageAlt": "Skiers hiking up a snowy mountain ridge",
+            "regions": [
+                {
+                    "id": "ski-alps",
+                    "name": "The Alps",
+                    "tagline": "Europe's legendary ski towns",
+                    "areas": [
+                        "Chamonix",
+                        "Zermatt",
+                        "St. Anton",
+                        "Dolomites"
+                    ],
+                    "season": "Dec–Apr",
+                    "image": "img/ski-alps.jpg",
+                    "imageAlt": "Skiers on a chairlift with the Matterhorn behind them",
+                    "intro": "Four of Europe's most legendary ski towns across France, Switzerland, Austria and Italy, all connected by train. Start under Mont Blanc, ski in the shadow of the Matterhorn, earn your après-ski in the Arlberg, and finish with a lap around the Dolomites. Best season: December to April, with January through March offering the most reliable snow.",
+                    "routeOrder": "Route order: fly into Geneva, then go west to east, and fly home from Venice. Each stop is one train ride from the next.",
+                    "stops": [
+                        {
+                            "place": "Chamonix, France",
+                            "nights": 7,
+                            "highlights": "Aiguille du Midi cable car (3,842 m) with Mont Blanc views; the Vallée Blanche, a ~20 km off-piste glacier run (guide required); Grands Montets"
+                        },
+                        {
+                            "place": "Zermatt, Switzerland",
+                            "nights": 7,
+                            "highlights": "Car-free village under the Matterhorn; Matterhorn Glacier Paradise, Europe's highest cable car station; ski across the border to Cervinia, Italy, for lunch"
+                        },
+                        {
+                            "place": "St. Anton, Austria",
+                            "nights": 8,
+                            "highlights": "Ski Arlberg, about 300 km of connected runs; the Valluga summit; famous après-ski at the MooserWirt"
+                        },
+                        {
+                            "place": "Dolomites, Italy",
+                            "nights": 8,
+                            "highlights": "Sella Ronda, a ~40 km ski loop around the Sella massif; Dolomiti Superski pass (~1,200 km of runs); mountain-hut (rifugio) lunches; UNESCO World Heritage site"
+                        }
+                    ],
+                    "stays": [
+                        "Chamonix: hostel dorms in town, near the free ski buses",
+                        "Zermatt: Zermatt Youth Hostel, the cheapest bed in an expensive town",
+                        "St. Anton: a small guesthouse (called a Pension in Austria), or stay in nearby Pettneu for lower prices",
+                        "Dolomites: a B&B in Ortisei or Selva in Val Gardena, on the Sella Ronda"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "December to April. Avoid February if you can, because European school holidays drive up prices and crowds."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €150–220 per person including lift passes, the biggest single cost at €70–100 a day. Switzerland is the most expensive stop."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Trains between towns (SBB in Switzerland, ÖBB in Austria, Trenitalia in Italy) and free local ski buses. A Eurail pass covers every train leg."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Geneva (about 1 hour 15 minutes to Chamonix by shuttle) and leave from Venice (about 3 hours from the Dolomites)."
+                        }
+                    ]
+                },
+                {
+                    "id": "ski-nordic",
+                    "name": "Nordic Countries",
+                    "tagline": "Winter slopes under the northern lights",
+                    "areas": [
+                        "Levi",
+                        "Åre",
+                        "Hemsedal",
+                        "Oslo"
+                    ],
+                    "season": "Dec–Apr",
+                    "image": "img/ski-nordic.jpg",
+                    "imageAlt": "Northern lights over a snowy pine forest",
+                    "intro": "You start skiing above the Arctic Circle in Finland, then cross into Sweden and Norway for the biggest resorts in Scandinavia. The mountains are smaller than the Alps, but the lift lines are short, the snow is dry, and if you get a clear night you can see the northern lights over the runs.",
+                    "routeOrder": "Route order: fly into Kittilä for Levi, fly to Stockholm and take the train to Åre, cross into Norway by train, and finish in Oslo.",
+                    "stops": [
+                        {
+                            "place": "Levi, Finland",
+                            "nights": 9,
+                            "highlights": "Finland's largest ski resort, above the Arctic Circle; northern lights hunting; husky and reindeer sledding"
+                        },
+                        {
+                            "place": "Åre, Sweden",
+                            "nights": 9,
+                            "highlights": "Sweden's biggest resort on the slopes of Åreskutan; lively après-ski in the village; ski-in cafés with views over the frozen lake"
+                        },
+                        {
+                            "place": "Hemsedal, Norway",
+                            "nights": 9,
+                            "highlights": "Called the \"Scandinavian Alps\"; steep tree runs and off-piste; one of Norway's best après-ski scenes"
+                        },
+                        {
+                            "place": "Oslo, Norway",
+                            "nights": 3,
+                            "highlights": "The Holmenkollen ski jump and ski museum; the Opera House roof; a floating sauna on the Oslofjord"
+                        }
+                    ],
+                    "stays": [
+                        "Levi: self-catering cabins split between friends are cheaper than hotels",
+                        "Åre: hostels and shared apartments in Åre village",
+                        "Hemsedal: Skarsnuten or village apartments close to the lifts",
+                        "Oslo: city-center hostels near Oslo Central Station"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "December to April. Days are very short in December; March brings longer light and still-strong northern lights."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €150–250 per person per day. Norway is the most expensive stop on the whole site."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Domestic flights in Finland, then SJ and Vy trains across Sweden and Norway, and ski buses in each resort."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Kittilä (KTT) and leave from Oslo (OSL)."
+                        }
+                    ]
+                },
+                {
+                    "id": "ski-asia",
+                    "name": "East Asia",
+                    "tagline": "Japan & Korea powder",
+                    "areas": [
+                        "Niseko",
+                        "Tokyo",
+                        "Hakuba",
+                        "Pyeongchang"
+                    ],
+                    "season": "Dec–Mar",
+                    "image": "img/ski-asia.jpg",
+                    "imageAlt": "A snowy village street in Japan at night",
+                    "intro": "Japan gets some of the deepest and lightest snow in the world, which skiers call \"Japow.\" You start in Niseko, the powder capital of Hokkaido, then go to Hakuba, where the 1998 Olympics were held. Then you finish at the 2018 Olympic resorts in South Korea. Also there are hot springs and ramen after every ski day.",
+                    "routeOrder": "Route order: fly into Sapporo for Niseko, fly to Tokyo, take the shinkansen (bullet train) toward Hakuba, then fly to Seoul and take the KTX train to Pyeongchang.",
+                    "stops": [
+                        {
+                            "place": "Niseko, Japan",
+                            "nights": 10,
+                            "highlights": "Deep powder in Grand Hirafu; night skiing under floodlights; izakaya dinners and onsen (hot spring) soaks"
+                        },
+                        {
+                            "place": "Tokyo, Japan",
+                            "nights": 3,
+                            "highlights": "A rest stop: Shibuya Crossing, Tsukiji Outer Market, and ramen in Shinjuku"
+                        },
+                        {
+                            "place": "Hakuba, Japan",
+                            "nights": 9,
+                            "highlights": "Hakuba Valley's ten resorts, including Happo-one from the 1998 Olympics; a day trip to see the snow monkeys at Jigokudani"
+                        },
+                        {
+                            "place": "Pyeongchang, South Korea",
+                            "nights": 8,
+                            "highlights": "Yongpyong and Alpensia from the 2018 Winter Olympics; Korean barbecue; a final day exploring Seoul"
+                        }
+                    ],
+                    "stays": [
+                        "Niseko: shared lodges in Hirafu; cheaper rooms are in nearby Kutchan",
+                        "Tokyo: capsule hotels or hostels in Asakusa",
+                        "Hakuba: guesthouses in Echoland, close to bars and the shuttle",
+                        "Pyeongchang: resort condos at Yongpyong, or stay in Seoul and day-trip by KTX"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "December to March. January and February bring the deepest snow in Japan."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $120–200 per person per day including lift passes. Japan is cheaper than the Alps for skiing."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Shinkansen and local trains in Japan, a short flight to Seoul, then the KTX to Pyeongchang. Luggage delivery services let you ship your skis ahead."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Sapporo (CTS) and leave from Seoul (ICN)."
+                        }
+                    ]
+                },
+                {
+                    "id": "ski-andes",
+                    "name": "The Andes",
+                    "tagline": "Southern Hemisphere ski season",
+                    "areas": [
+                        "Santiago",
+                        "Valle Nevado",
+                        "Portillo",
+                        "Bariloche"
+                    ],
+                    "season": "Jun–Sep",
+                    "image": "img/ski-andes.jpg",
+                    "imageAlt": "Snowy Andes peaks under a bright sun",
+                    "intro": "This is the route for skiing in July. When it is summer up north it is winter in the Andes. You start at the high resorts in Chile near Santiago, then cross the mountains into Argentina for Bariloche, which has the biggest ski area in South America.",
+                    "routeOrder": "Route order: fly into Santiago, ski the Chilean resorts, then take the bus over the Andes to Bariloche and fly home through Buenos Aires.",
+                    "stops": [
+                        {
+                            "place": "Santiago, Chile",
+                            "nights": 3,
+                            "highlights": "Base city: Cerro San Cristóbal views, Chilean wine and the Mercado Central"
+                        },
+                        {
+                            "place": "Valle Nevado, Chile",
+                            "nights": 8,
+                            "highlights": "High-altitude runs linked with La Parva and El Colorado; views of the Andes' tallest peaks; about an hour's drive from Santiago"
+                        },
+                        {
+                            "place": "Portillo, Chile",
+                            "nights": 7,
+                            "highlights": "A historic resort on the shore of the frozen Laguna del Inca; steep, uncrowded chutes; one of the oldest ski areas in South America"
+                        },
+                        {
+                            "place": "Bariloche, Argentina",
+                            "nights": 12,
+                            "highlights": "Cerro Catedral, the largest ski area in South America; Nahuel Huapi Lake; Argentine steak and famous chocolate shops"
+                        }
+                    ],
+                    "stays": [
+                        "Santiago: hostels in Bellavista or Lastarria",
+                        "Valle Nevado: on-mountain hotels; save money by day-tripping from Santiago by shuttle",
+                        "Portillo: the Inca Lodge, the resort's budget bunk rooms",
+                        "Bariloche: hostels in town, with buses to Cerro Catedral"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "June to September. Mid-July is Argentine winter holiday, so expect crowds in Bariloche."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $120–200 per person per day including lift passes."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Ski shuttles from Santiago, then a long but scenic bus over the Andes to Bariloche."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Santiago (SCL) and leave from Bariloche (BRC)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "nature",
+            "name": "Nature",
+            "tagline": "hiking, parks, wildlife",
+            "description": "These routes are for hiking, national parks, and wildlife. There is no skiing on these, just trails. Each route is built around a few big hikes or parks with a town in between so you can rest, restock, and do laundry.",
+            "image": "img/nature.jpg",
+            "imageAlt": "Hiker standing on a rock ledge above a Norwegian fjord",
+            "regions": [
+                {
+                    "id": "nature-nordic",
+                    "name": "Nordic Countries",
+                    "tagline": "Summer fjords and islands",
+                    "areas": [
+                        "Iceland's Ring Road",
+                        "Bergen & the fjords",
+                        "Lofoten Islands",
+                        "Tromsø"
+                    ],
+                    "season": "Jun–Aug",
+                    "image": "img/nature-nordic.jpg",
+                    "imageAlt": "A deep green fjord with a waterfall in Norway",
+                    "intro": "Waterfalls, glaciers, volcanoes, and fjords, all under a sun that barely sets. You drive Iceland's Ring Road first, then go to Norway for the fjords and the Lofoten Islands. In June and July you have almost 24 hours of daylight to hike.",
+                    "routeOrder": "Route order: fly into Reykjavík and rent a car for the Ring Road, fly to Bergen, then go north to Lofoten by plane and ferry, and finish in Tromsø.",
+                    "stops": [
+                        {
+                            "place": "Iceland's Ring Road",
+                            "nights": 10,
+                            "highlights": "Seljalandsfoss and Skógafoss waterfalls; black sand at Reynisfjara; icebergs at Jökulsárlón glacier lagoon; Mývatn's lava fields"
+                        },
+                        {
+                            "place": "Bergen & the fjords, Norway",
+                            "nights": 8,
+                            "highlights": "The Flåm Railway; a boat on the narrow Nærøyfjord; the Trolltunga hike (10–12 hours round trip)"
+                        },
+                        {
+                            "place": "Lofoten Islands, Norway",
+                            "nights": 9,
+                            "highlights": "The Reinebringen hike above Reine; red fishing cabins (rorbuer); midnight sun over white beaches"
+                        },
+                        {
+                            "place": "Tromsø, Norway",
+                            "nights": 3,
+                            "highlights": "The Fjellheisen cable car; the Arctic Cathedral; a midnight sun hike"
+                        }
+                    ],
+                    "stays": [
+                        "Iceland: campervans or campsites keep costs down. Guesthouses book up months ahead",
+                        "Bergen: hostels near the Bryggen wharf",
+                        "Lofoten: rorbuer cabins shared between friends",
+                        "Tromsø: city hostels near the harbor"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "June to August, when the midnight sun is up and the mountain roads are open."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €120–200 per person per day. Camping cuts this a lot."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "A rental car or campervan in Iceland, then trains, ferries and the Hurtigruten coastal ship in Norway."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Reykjavík (KEF) and leave from Tromsø (TOS)."
+                        }
+                    ]
+                },
+                {
+                    "id": "nature-patagonia",
+                    "name": "Patagonia",
+                    "tagline": "Glaciers and granite peaks",
+                    "areas": [
+                        "Torres del Paine",
+                        "El Calafate",
+                        "El Chaltén",
+                        "Ushuaia"
+                    ],
+                    "season": "Nov–Mar",
+                    "image": "img/nature-patagonia.jpg",
+                    "imageAlt": "A guanaco grazing below the Torres del Paine peaks",
+                    "intro": "Patagonia is the bottom of the world, with granite peaks, blue glaciers, and a lot of wind. This route goes back and forth between Chile and Argentina for the three most famous hikes in the region. Then it ends in Ushuaia, the southernmost city in the world.",
+                    "routeOrder": "Route order: fly into Punta Arenas and bus to Puerto Natales, cross the border to El Calafate and El Chaltén, then fly to Ushuaia and home through Buenos Aires.",
+                    "stops": [
+                        {
+                            "place": "Torres del Paine, Chile",
+                            "nights": 9,
+                            "highlights": "The W Trek (4–5 days) to the base of the three granite towers; Grey Glacier; guanacos on the open steppe"
+                        },
+                        {
+                            "place": "El Calafate, Argentina",
+                            "nights": 6,
+                            "highlights": "The Perito Moreno Glacier boardwalks, where ice chunks crash into the lake; a mini-trek on the glacier itself"
+                        },
+                        {
+                            "place": "El Chaltén, Argentina",
+                            "nights": 8,
+                            "highlights": "Laguna de los Tres at the foot of Mount Fitz Roy; Laguna Torre; free trails that start right in town"
+                        },
+                        {
+                            "place": "Ushuaia, Argentina",
+                            "nights": 7,
+                            "highlights": "Tierra del Fuego National Park; a boat on the Beagle Channel to see penguins and sea lions"
+                        }
+                    ],
+                    "stays": [
+                        "Torres del Paine: refugios (mountain huts) and campsites along the W, which must be booked in advance",
+                        "El Calafate: hostels in town with glacier tour pickups",
+                        "El Chaltén: hostels and campsites at the trailheads",
+                        "Ushuaia: hostels with views over the Beagle Channel"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "November to March, Patagonia's summer, with long days and the mildest weather. Pack for wind any time."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $70–120 per person per day. Chile is pricier than Argentina."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Long-distance buses (Bus-Sur, Taqsa) between towns, and a flight to Ushuaia."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Punta Arenas (PUQ) and leave from Ushuaia (USH)."
+                        }
+                    ]
+                },
+                {
+                    "id": "nature-himalayas",
+                    "name": "The Himalayas",
+                    "tagline": "The world's highest treks",
+                    "areas": [
+                        "Kathmandu",
+                        "Everest Base Camp trek",
+                        "Pokhara & Annapurna",
+                        "Leh"
+                    ],
+                    "season": "Mar–May, Oct–Nov",
+                    "image": "img/nature-himalayas.jpg",
+                    "imageAlt": "Prayer flags above a valley below snowy Himalayan peaks",
+                    "intro": "The biggest mountains in the world. This route is built around two of the best treks in Nepal, Everest Base Camp and Poon Hill in the Annapurnas. Then you fly to Ladakh in India, which is a high desert that people call \"Little Tibet.\" The altitude is no joke, so the plan includes rest days to get used to it.",
+                    "routeOrder": "Route order: fly into Kathmandu, fly to Lukla for the trek, bus or fly to Pokhara, then fly Kathmandu to Delhi to Leh and home from Delhi.",
+                    "stops": [
+                        {
+                            "place": "Kathmandu, Nepal",
+                            "nights": 3,
+                            "highlights": "Durbar Square; the Boudhanath stupa; momo dumplings; picking up trekking permits"
+                        },
+                        {
+                            "place": "Everest Base Camp trek, Nepal",
+                            "nights": 14,
+                            "highlights": "The flight into Lukla; Namche Bazaar acclimatization days; Tengboche Monastery; sunrise over Everest from Kala Patthar"
+                        },
+                        {
+                            "place": "Pokhara & Annapurna, Nepal",
+                            "nights": 6,
+                            "highlights": "Phewa Lake; the Poon Hill trek for sunrise over the Annapurna range; paragliding over the lake"
+                        },
+                        {
+                            "place": "Leh, Ladakh, India",
+                            "nights": 7,
+                            "highlights": "Thiksey Monastery; Pangong Tso lake; the Khardung La mountain pass. Spend your first two days resting at altitude"
+                        }
+                    ],
+                    "stays": [
+                        "Kathmandu: guesthouses in Thamel, the trekkers' district",
+                        "Everest trek: teahouses (simple lodges) in each village along the trail",
+                        "Pokhara: lakeside guesthouses",
+                        "Leh: family-run guesthouses in the old town"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "Autumn (October to November) is the clearest. Spring (March to May) brings rhododendron blooms. Visit Ladakh in the autumn window, before the passes close."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $35–60 per person per day, plus trekking permits and a guide. Nepal now requires most foreign trekkers in its protected areas to hire a licensed guide."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Domestic flights (Lukla, Pokhara, Leh), tourist buses, and walking."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Kathmandu (KTM) and leave from Delhi (DEL)."
+                        }
+                    ]
+                },
+                {
+                    "id": "nature-parks",
+                    "name": "North American National Parks",
+                    "tagline": "Yosemite to the Canadian Rockies",
+                    "areas": [
+                        "Yosemite",
+                        "Yellowstone",
+                        "Banff",
+                        "Jasper"
+                    ],
+                    "season": "Jun–Sep",
+                    "image": "img/nature-parks.jpg",
+                    "imageAlt": "Red canoes on Moraine Lake below the Canadian Rockies",
+                    "intro": "A road trip through four of the most famous parks in North America. You see the granite walls in Yosemite, the geysers and bison in Yellowstone, and the turquoise lakes in the Canadian Rockies. Then you drive the Icefields Parkway, one of the most scenic roads in the world, to finish in Jasper.",
+                    "routeOrder": "Route order: fly into San Francisco and rent a car, drive to Yosemite, then north to Yellowstone, cross into Canada for Banff, and drive the Icefields Parkway to Jasper.",
+                    "stops": [
+                        {
+                            "place": "Yosemite, California",
+                            "nights": 7,
+                            "highlights": "Yosemite Falls; the Mist Trail; Glacier Point at sunset; the Half Dome cables (permit lottery required)"
+                        },
+                        {
+                            "place": "Yellowstone, Wyoming",
+                            "nights": 8,
+                            "highlights": "Old Faithful; Grand Prismatic Spring; bison and wolves in the Lamar Valley; the Grand Canyon of the Yellowstone"
+                        },
+                        {
+                            "place": "Banff, Alberta",
+                            "nights": 8,
+                            "highlights": "Lake Louise and Moraine Lake (shuttle only, no private cars); Johnston Canyon; the Banff Gondola"
+                        },
+                        {
+                            "place": "Jasper, Alberta",
+                            "nights": 7,
+                            "highlights": "The Icefields Parkway and the Athabasca Glacier; Maligne Lake; dark-sky stargazing"
+                        }
+                    ],
+                    "stays": [
+                        "Yosemite: campgrounds book out months ahead on Recreation.gov; Curry Village tent cabins",
+                        "Yellowstone: campgrounds inside the park, or motels in West Yellowstone",
+                        "Banff: hostels in Banff town and at Lake Louise",
+                        "Jasper: campgrounds and hostels. Check current conditions, since the 2024 wildfire damaged part of town"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "June to September, when the high roads and trails are snow-free."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $120–180 per person per day, much less if you camp. An annual parks pass covers US park entry."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "A rental car is essential. Book one-way rentals early, since crossing the border adds fees."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in San Francisco (SFO) and leave from Edmonton (YEG)."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "culture",
+            "name": "Culture / Food",
+            "tagline": "history, cities, cuisine",
+            "description": "These routes are about history, cities, and food. You will see ruins, museums, and some of the best food in the world. The pace is a little slower so you have time for markets, cooking classes, and long dinners.",
+            "image": "img/culture.jpg",
+            "imageAlt": "The Colosseum in Rome",
+            "regions": [
+                {
+                    "id": "culture-mexico",
+                    "name": "Mexico & Guatemala",
+                    "tagline": "Street food and Maya ruins",
+                    "areas": [
+                        "Mexico City",
+                        "Oaxaca",
+                        "Mérida & Chichén Itzá",
+                        "Flores & Tikal"
+                    ],
+                    "season": "Nov–Apr",
+                    "image": "img/culture-mexico.jpg",
+                    "imageAlt": "A Maya temple rising above the jungle at Tikal at dusk",
+                    "intro": "This route has thousands of years of history and some of the best food in the world. You start in Mexico City, then eat your way through the moles and mezcal in Oaxaca. Then you climb Maya pyramids in the Yucatán, and finish in the jungle at Tikal in Guatemala.",
+                    "routeOrder": "Route order: fly into Mexico City, bus to Oaxaca, fly to Mérida, then travel by bus and shuttle to Flores, Guatemala, and fly home.",
+                    "stops": [
+                        {
+                            "place": "Mexico City, Mexico",
+                            "nights": 9,
+                            "highlights": "The Teotihuacan pyramids; the National Museum of Anthropology; tacos al pastor; the Frida Kahlo Museum in Coyoacán"
+                        },
+                        {
+                            "place": "Oaxaca, Mexico",
+                            "nights": 7,
+                            "highlights": "Seven kinds of mole; mezcal tasting; the Zapotec ruins at Monte Albán; the mineral pools of Hierve el Agua"
+                        },
+                        {
+                            "place": "Mérida & Chichén Itzá, Mexico",
+                            "nights": 7,
+                            "highlights": "El Castillo pyramid at Chichén Itzá; swimming in cenotes (natural sinkholes); cochinita pibil, the Yucatán's slow-roasted pork"
+                        },
+                        {
+                            "place": "Flores & Tikal, Guatemala",
+                            "nights": 7,
+                            "highlights": "Sunrise over the Tikal temples with howler monkeys; the island town of Flores on Lake Petén Itzá"
+                        }
+                    ],
+                    "stays": [
+                        "Mexico City: hostels in Roma or the Centro Histórico",
+                        "Oaxaca: guesthouses in the city center, near the markets",
+                        "Mérida: colonial-house hostels with courtyard pools",
+                        "Flores: hostels on the island, with sunrise shuttles to Tikal"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "November to April, the dry season. Day of the Dead (November 1–2) is spectacular in Oaxaca and Mexico City."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $45–75 per person per day."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "ADO first-class buses in Mexico, a domestic flight to Mérida, and tourist shuttles into Guatemala."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Mexico City (MEX) and leave from Flores (FRS) or Guatemala City (GUA)."
+                        }
+                    ]
+                },
+                {
+                    "id": "culture-asia",
+                    "name": "East Asia",
+                    "tagline": "Four of China's great food cities",
+                    "areas": [
+                        "Beijing",
+                        "Xi'an",
+                        "Chengdu",
+                        "Shanghai"
+                    ],
+                    "season": "Apr–May, Sep–Oct",
+                    "image": "img/culture-asia.jpg",
+                    "imageAlt": "The Great Wall of China winding over green mountains",
+                    "intro": "Palaces, the Great Wall, the Terracotta Army, and giant pandas, all connected by one of the fastest train systems in the world. Every stop has its own food too, from Peking duck in Beijing to Sichuan hotpot in Chengdu to soup dumplings in Shanghai.",
+                    "routeOrder": "Route order: fly into Beijing, then take high-speed trains to Xi'an, Chengdu and Shanghai, and fly home from Shanghai.",
+                    "stops": [
+                        {
+                            "place": "Beijing, China",
+                            "nights": 8,
+                            "highlights": "The Great Wall at Mutianyu; the Forbidden City; Peking duck; cycling the old hutong alleys"
+                        },
+                        {
+                            "place": "Xi'an, China",
+                            "nights": 6,
+                            "highlights": "The Terracotta Army; street food in the Muslim Quarter; biking on top of the ancient city wall"
+                        },
+                        {
+                            "place": "Chengdu, China",
+                            "nights": 7,
+                            "highlights": "Giant pandas at the Chengdu Research Base; Sichuan hotpot and mapo tofu; a day trip to the Leshan Giant Buddha"
+                        },
+                        {
+                            "place": "Shanghai, China",
+                            "nights": 9,
+                            "highlights": "The Bund skyline at night; Yu Garden; xiaolongbao (soup dumplings); the canal town of Zhujiajiao"
+                        }
+                    ],
+                    "stays": [
+                        "Beijing: courtyard hostels in the hutongs",
+                        "Xi'an: hostels inside the city wall",
+                        "Chengdu: hostels near Kuanzhai Alley",
+                        "Shanghai: hostels near the Bund or People's Square"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "April to May or September to October. Avoid the Golden Week holiday (October 1–7), when the whole country travels."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About $50–90 per person per day."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "High-speed trains between every city; metros within cities. Set up Alipay or WeChat Pay before you go, since cash is rarely used."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Beijing (PEK) and leave from Shanghai (PVG)."
+                        }
+                    ]
+                },
+                {
+                    "id": "culture-greece",
+                    "name": "Greece & Turkey",
+                    "tagline": "Ancient ruins on two continents",
+                    "areas": [
+                        "Athens",
+                        "Santorini",
+                        "Cappadocia",
+                        "Istanbul"
+                    ],
+                    "season": "Apr–Jun, Sep–Oct",
+                    "image": "img/culture-greece.jpg",
+                    "imageAlt": "Hot air balloons over the rock valleys of Cappadocia",
+                    "intro": "This route is where Europe meets Asia. You walk up to the Acropolis, watch the sunset over the volcano in Santorini, and ride a hot air balloon over Cappadocia. Then you finish in Istanbul, which was the capital of two different empires.",
+                    "routeOrder": "Route order: fly into Athens, ferry to Santorini, fly to Cappadocia (through Istanbul), and finish in Istanbul.",
+                    "stops": [
+                        {
+                            "place": "Athens, Greece",
+                            "nights": 6,
+                            "highlights": "The Acropolis and Parthenon; the Acropolis Museum; souvlaki in Plaka"
+                        },
+                        {
+                            "place": "Santorini, Greece",
+                            "nights": 6,
+                            "highlights": "Sunset in Oia; the caldera hike from Fira to Oia (about 10 km); volcanic-soil wineries"
+                        },
+                        {
+                            "place": "Cappadocia, Turkey",
+                            "nights": 7,
+                            "highlights": "A sunrise hot-air balloon flight; the Göreme Open-Air Museum's cave churches; the Derinkuyu underground city; sleeping in a cave hotel"
+                        },
+                        {
+                            "place": "Istanbul, Turkey",
+                            "nights": 11,
+                            "highlights": "Hagia Sophia; the Blue Mosque; the Grand Bazaar; a Bosphorus ferry ride; kebabs, simit and baklava"
+                        }
+                    ],
+                    "stays": [
+                        "Athens: hostels in Psyrri or Plaka, below the Acropolis",
+                        "Santorini: hostels in Fira or Perissa; Oia is the most expensive village",
+                        "Cappadocia: cave hotels in Göreme",
+                        "Istanbul: hostels in Sultanahmet or Karaköy"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "April to June or September to October, warm but without the summer crowds and heat."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €70–120 per person per day. Santorini is the most expensive stop; Turkey is much cheaper."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Ferries in Greece and domestic flights in Turkey (Turkish Airlines, Pegasus)."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Athens (ATH) and leave from Istanbul (IST)."
+                        }
+                    ]
+                },
+                {
+                    "id": "culture-med",
+                    "name": "Western Mediterranean",
+                    "tagline": "Pasta, art and pintxos",
+                    "areas": [
+                        "Rome",
+                        "Florence",
+                        "Paris",
+                        "San Sebastián"
+                    ],
+                    "season": "Apr–Jun, Sep–Oct",
+                    "image": "img/culture-med.jpg",
+                    "imageAlt": "The Trevi Fountain in Rome",
+                    "intro": "This is the best of European art and food. You see ancient Rome, Renaissance Florence, and the museums and bakeries of Paris. Then you finish in San Sebastián, a beach town in Basque Country with some of the best food in Spain.",
+                    "routeOrder": "Route order: fly into Rome, take the train to Florence, fly or train to Paris, then take the TGV south to the Spanish border and fly home from Bilbao.",
+                    "stops": [
+                        {
+                            "place": "Rome, Italy",
+                            "nights": 8,
+                            "highlights": "The Colosseum and Roman Forum; the Vatican Museums and Sistine Chapel; carbonara and cacio e pepe in Trastevere"
+                        },
+                        {
+                            "place": "Florence, Italy",
+                            "nights": 7,
+                            "highlights": "The Uffizi Gallery; climbing Brunelleschi's Duomo; bistecca alla fiorentina; a Chianti wine day trip"
+                        },
+                        {
+                            "place": "Paris, France",
+                            "nights": 8,
+                            "highlights": "The Louvre and Musée d'Orsay; Montmartre; croissants and baguettes from neighborhood bakeries"
+                        },
+                        {
+                            "place": "San Sebastián, Spain",
+                            "nights": 7,
+                            "highlights": "A pintxos (Basque tapas) crawl in the Old Town; La Concha beach; a traditional cider house dinner"
+                        }
+                    ],
+                    "stays": [
+                        "Rome: hostels near Termini station or in Trastevere",
+                        "Florence: hostels near Santa Maria Novella station",
+                        "Paris: hostels in the Marais or Canal Saint-Martin area",
+                        "San Sebastián: guesthouses in the Old Town, steps from the pintxos bars"
+                    ],
+                    "glance": [
+                        {
+                            "label": "Best time",
+                            "text": "April to June or September to October. August is hot, crowded, and many Paris restaurants close."
+                        },
+                        {
+                            "label": "Daily budget",
+                            "text": "About €100–160 per person per day. Paris is the most expensive stop."
+                        },
+                        {
+                            "label": "Getting around",
+                            "text": "Trains (Trenitalia, Italo, TGV) and one short flight. Book high-speed trains early for the best prices."
+                        },
+                        {
+                            "label": "Fly in / fly out",
+                            "text": "Arrive in Rome (FCO) and leave from Bilbao (BIO)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
