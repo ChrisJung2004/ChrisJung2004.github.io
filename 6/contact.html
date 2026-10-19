@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="Send The 30-Day Route a question about your month-long backpacking trip.">
+    <meta name="keywords" content="backpacking, travel, contact, trip questions">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Contact Us | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1>Contact Us</h1>
+        <p class="tagline">Questions about a route? Send a message.</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+                <li><button class="nav-button open-login" type="button">Log in / Sign up</button></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <section>
+                <h2 id="contact-title">Ask about your trip</h2>
+                <p>If you have any questions about your trip, send me a message below or email me and I will get back to you within two days.</p>
+                <form id="contact-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div>
+                        <label for="trip">Which trip did you pick?</label>
+                        <select id="trip" name="trip">
+                            <option value="">Not sure yet</option>
+                            <option value="party-asia">Party: Southeast Asia</option>
+                            <option value="party-med">Party: Mediterranean Islands</option>
+                            <option value="party-europe">Party: Central European Cities</option>
+                            <option value="party-america">Party: South America</option>
+                            <option value="ski-alps">Ski: The Alps</option>
+                            <option value="ski-nordic">Ski: Nordic Countries</option>
+                            <option value="ski-asia">Ski: East Asia</option>
+                            <option value="ski-andes">Ski: The Andes</option>
+                            <option value="nature-nordic">Nature: Nordic Countries</option>
+                            <option value="nature-patagonia">Nature: Patagonia</option>
+                            <option value="nature-himalayas">Nature: The Himalayas</option>
+                            <option value="nature-parks">Nature: North American National Parks</option>
+                            <option value="culture-mexico">Culture / Food: Mexico &amp; Guatemala</option>
+                            <option value="culture-asia">Culture / Food: East Asia</option>
+                            <option value="culture-greece">Culture / Food: Greece &amp; Turkey</option>
+                            <option value="culture-med">Culture / Food: Western Mediterranean</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button class="button" type="submit">Send message</button>
+                </form>
+                <p class="status-message" id="contact-status" role="status"></p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Photos from <a href="https://unsplash.com">Unsplash</a> and <a href="https://www.pexels.com">Pexels</a>. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+
+    <div class="popup" id="login-popup" hidden>
+        <div class="popup-box" role="dialog" aria-modal="true" aria-labelledby="login-popup-title" aria-describedby="login-popup-text">
+            <h2 id="login-popup-title">Log in / Sign up</h2>
+            <p id="login-popup-text">Accounts are coming in the next version of The 30-Day Route. You will be able to save your routes and plan trips with friends. For now, every route is free to use without an account.</p>
+            <button class="button" id="close-login-popup" type="button">Got it</button>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

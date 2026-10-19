@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="Pick a trip type and a region to get a ready-made 30-day backpacking route with stops, nights, highlights and places to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, party trip, ski trip, nature trip, culture trip, food travel">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Find Your Route | The 30-Day Route</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1 id="page-heading">Find Your Route</h1>
+        <p class="tagline" id="page-tagline">Step 1: pick the kind of trip you want.</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><button class="nav-button open-login" type="button">Log in / Sign up</button></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <ol class="steps" id="progress-steps" aria-label="Progress">
+                <li class="current" aria-current="step">Step 1: Pick a trip type</li>
+                <li>Step 2: Pick a region</li>
+                <li>Step 3: Your 30-day route</li>
+            </ol>
+
+            <div id="route-app">
+                <p class="status-message" role="status">Loading routes&hellip;</p>
+                <noscript><p class="error-message">This page needs JavaScript turned on to show the routes.</p></noscript>
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Photos from <a href="https://unsplash.com">Unsplash</a> and <a href="https://www.pexels.com">Pexels</a>. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+
+    <div class="popup" id="login-popup" hidden>
+        <div class="popup-box" role="dialog" aria-modal="true" aria-labelledby="login-popup-title" aria-describedby="login-popup-text">
+            <h2 id="login-popup-title">Log in / Sign up</h2>
+            <p id="login-popup-text">Accounts are coming in the next version of The 30-Day Route. You will be able to save your routes and plan trips with friends. For now, every route is free to use without an account.</p>
+            <button class="button" id="close-login-popup" type="button">Got it</button>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+    <script src="js/routes.js"></script>
+</body>
+</html>
