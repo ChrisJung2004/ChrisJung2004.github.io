@@ -1,6 +1,5 @@
-// The two-step route finder. The route data now lives in the Firebase
-// Cloud Firestore database (the "tripTypes" collection) instead of a JSON file,
-// so it can only be read by logged-in users and is the same on every computer.
+// The two-step route finder. Trip types are loaded from the "tripTypes"
+// collection in Cloud Firestore, which only logged-in users can read.
 import { db } from './firebase-init.js';
 import { collection, getDocs } from 'https://www.gstatic.com/firebasejs/13.1.0/firebase-firestore.js';
 import { requireUser } from './auth.js';
