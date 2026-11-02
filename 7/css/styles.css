@@ -695,25 +695,6 @@ h2:focus {
   margin: 1rem 0 0;
 }
 
-/* Buttons that switch panels look like links but are real buttons. */
-.text-button {
-  min-height: 2.75rem;
-  padding: 0.25rem 0;
-  border: none;
-  background: none;
-  color: var(--link);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.95rem;
-  text-align: left;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.text-button:hover, .text-button:focus, .text-button:active {
-  color: var(--link-hover);
-  background-color: var(--highlight);
-}
-
 button:disabled, input:disabled, select:disabled, textarea:disabled {
   cursor: wait;
   opacity: 0.65;
