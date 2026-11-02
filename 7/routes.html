@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chris Jung">
+    <meta name="description" content="Pick a trip type and a region to get a ready-made 30-day backpacking route with stops, nights, highlights and places to stay.">
+    <meta name="keywords" content="backpacking, travel, route planner, 30-day trip, itinerary, party trip, ski trip, nature trip, culture trip, food travel">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Find Your Route | The 30-Day Route</title>
+</head>
+<body data-requires-login>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">The 30-Day Route</a>
+        <h1 id="page-heading">Find Your Route</h1>
+        <p class="tagline" id="page-tagline">Step 1: pick the kind of trip you want.</p>
+    </header>
+
+    <div class="layout">
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="routes.html" aria-current="page">Find Your Route</a></li>
+                <li><a href="info.html">Travel Info</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><button class="nav-button open-account" type="button">Log in / Sign up</button></li>
+                <li class="signed-in-only" hidden><button class="nav-button logout-button" type="button">Log out</button></li>
+            </ul>
+        </nav>
+
+        <main id="main">
+            <p class="status status-working auth-gate" id="auth-gate" role="status"><span class="spinner" aria-hidden="true"></span>Checking your account&hellip;</p>
+            <div id="page-content" hidden>
+            <ol class="steps" id="progress-steps" aria-label="Progress">
+                <li class="current" aria-current="step">Step 1: Pick a trip type</li>
+                <li>Step 2: Pick a region</li>
+                <li>Step 3: Your 30-day route</li>
+            </ol>
+
+            <div id="route-app">
+                <p class="status status-working" role="status"><span class="spinner" aria-hidden="true"></span>Loading routes&hellip;</p>
+                <noscript><p class="error-message">This page needs JavaScript turned on to show the routes.</p></noscript>
+            </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Chris Jung &middot; CSCI 3054, University of Mississippi</p>
+        <p>Questions about your trip? <a href="contact.html">Contact us</a> or email <a href="mailto:chrisjung3362@gmail.com">chrisjung3362@gmail.com</a></p>
+        <p>Photos from <a href="https://unsplash.com">Unsplash</a> and <a href="https://www.pexels.com">Pexels</a>. Route facts compiled from official tourism and park websites.</p>
+    </footer>
+
+    <dialog class="account-dialog" id="account-dialog" aria-labelledby="account-dialog-title">
+        <div class="dialog-inner">
+            <div class="dialog-top">
+                <h2 id="account-dialog-title">Log in</h2>
+                <button class="close-button" id="close-account-dialog" type="button" aria-label="Close the account window">&times;</button>
+            </div>
+            <p class="dialog-notice" id="account-notice" hidden></p>
+
+            <div data-panel="login">
+                <p class="form-help">Log in with your Google account to see every route, the travel info and the contact form. New here? Signing in with Google for the first time creates your free account.</p>
+                <div class="google-block">
+                    <button class="button button-google" id="google-signin" type="button">Continue with Google</button>
+                    <p class="status" id="google-status" role="status" aria-live="polite"></p>
+                </div>
+            </div>
+
+            <div data-panel="account" hidden>
+                <p>You are logged in as <strong class="user-email"></strong>.</p>
+                <p class="form-help">Your password is managed by your Google account, not this site.</p>
+                <p class="panel-links">
+                    <button class="button button-outline logout-button" type="button">Log out</button>
+                </p>
+            </div>
+        </div>
+    </dialog>
+
+    <script type="module" src="js/auth.js"></script>
+    <script type="module" src="js/routes.js"></script>
+</body>
+</html>
