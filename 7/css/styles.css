@@ -679,14 +679,6 @@ h2:focus {
   background-color: var(--sand);
 }
 
-.account-dialog form .button {
-  border-color: var(--moss);
-}
-
-.account-dialog h3 {
-  margin-top: 0.5rem;
-}
-
 .panel-links {
   display: flex;
   flex-direction: column;
@@ -717,22 +709,6 @@ button:disabled, input:disabled, select:disabled, textarea:disabled {
   border-color: var(--moss);
   background-color: var(--sand);
   color: var(--deep-pine);
-}
-
-.divider {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin: 0.25rem 0 0;
-  color: var(--muted);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.85rem;
-}
-
-.divider::before, .divider::after {
-  content: "";
-  flex-grow: 1;
-  border-top: 1px solid var(--rule);
 }
 
 [hidden] {
