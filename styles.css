@@ -23,10 +23,14 @@ header h1 {
 
 section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     align-items: center;
     gap: 30px;
     margin: 40px auto;
+    padding: 0 40px;
+    max-width: 1000px;
     flex-grow: 1;
 }
 
